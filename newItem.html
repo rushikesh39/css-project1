@@ -5,12 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
 </head>
 <body>
     <div class="container3">
+        <div class="containerBox">
+            <div class="list">
+                <h1>Tasks</h1>
+                <h1 id="color">List</h1>
+            </div>
+            <div class="button2">
+                <div>
+                    <input type="button" value="<-" id="back">
+                    <a href="./index.html">Back</a>
+                </div>
+                <div>
+                    <input type="button" value="+" id="add">
+                    <a href="./newItem.html">Add New Task</a>
+                </div>
+            </div>
+    
+            <div class="item paris">
+                <h2>Trip to Paris</h2>
+                <hr>
+                <input type="checkbox" name="" id="church" checked class="check " disabled>
+                <label for="church" class="overline">Visit Church </label>
+                <br>
+                <input type="checkbox" name="" id="shopping" class="check ">
+                <label for="shopping">Shopping</label>
+            </div>
+    
+        </div>
+
+
+
         <div class="newItem">
             <h3 id="headingNewItem">Add New Item</h3>
+            <i class="fa fa-close"></i>
             <hr id="newItemhr">
             <input type="text" name="" id="addNewItem" placeholder="Visit Famous Places">
             <input type="button" value="+ Add Item" id="addItemButton">
